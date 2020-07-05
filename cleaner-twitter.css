@@ -1,0 +1,41 @@
+@-moz-document domain("twitter.com") {
+    /*
+            Home Page Stuff
+    */
+    
+    /* Remove Text from Nav Links */
+    
+    /* Remove Who to Follow and Trends for You, also remove copyright footer etc */
+    [data-testid="sidebarColumn"] {
+        display: none !important;
+    }
+    
+    
+    /* Remove my twitter handle link and Tweets, Following, Followers */
+    
+    
+    /*
+            User Profile Page Stuff
+    */
+    
+    /* Remove Tweets, Following, Follwers, Likes */
+    
+    
+    /* Remove Suggested section on someone's profile */
+    
+    
+    /* I don't need to see when a user joined... */
+    
+    
+    /* Make the Tweets, Tweets & replies, Media section a little less gross */
+    
+    
+    /*
+            Miscellaneous Stuff
+    */
+    
+    /* Give the Verified symbol a muted colour */
+    span.UserBadges span.Icon--verified {
+        color: #657786;
+    }
+    }
